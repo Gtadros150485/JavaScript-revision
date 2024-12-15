@@ -1,0 +1,92 @@
+ECMAScript version from 1 to 6. is a standardized rules for JavaScript in which the scripting language should follow
+
+
+One problem with JavaScript is that it is hard to deal with because it allows programmers to write mostly anything they want but afterwards it is hard to debug errors or understand the behavior. 
+
+The Operator typeof(Unary):
+shows the datatype of any variable for example let x = 3 then Console.log(typeof x); it will show number
+Not all operators are symbols. Some are written as words. One example is the
+typeof operator, which produces a string value naming the type of the value
+you give it.
+
+Ternary operators:
+console.log(true?"yes":"no");
+
+
+type coercion is a type in JavaScript that it tries to check the type and convert it as logical as possible 
+this is how Javascript makes datatype binding 
+
+
+automatic type binding  
+console.log(""==false);--true
+console.log(""===false);--false
+
+
+will take the value of user because it is not null
+console.log(null || "user")
+// → user
+otherwise will take the value of Agnes 
+console.log("Agnes" || "user")
+// → Agnes
+
+
+A binding name may include dollar signs ($) or underscores
+(_)
+
+
+console.log(Math.sqrt(25)); like Java the Math.sqrt() Math.min()and so on functions
+
+prompt is not a pre-defined function in node.js so we can define it by doing the following 
+const prompt = require('prompt-sync')();
+
+
+let x = 10; // global
+if (true) {
+let y = 20; // local to block
+var z = 30; // also global
+} here the var are global
+
+
+const roundTo = (n, step) => {
+let remainder = n % step;
+return n - remainder + (remainder < step / 2 ? 0 : step);
+}
+
+
+function minus(a, b) {
+if (b === undefined) return -a;
+else return a - b;
+}
+console.log(minus(10));
+// → -10
+console.log(minus(10, 5));
+// → 5
+
+function multiplier(factor) {
+return number => number * factor;
+}
+let twice = multiplier(2);
+console.log(twice(5));
+// → 10
+
+
+console.log("He&"["length"]);
+the same as console.log();
+
+here's how to create an array 2D
+
+trim() method in a string remove the whtitespaces console.log(" okay \n ".trim());
+
+
+JavaScript gives us the functions JSON.stringify and JSON.parse to convert
+data to and from this format. The first takes a JavaScript value and returns
+a JSON-encoded string. The second takes such a string and converts it to the
+value it encodes:
+let string = JSON.stringify({squirrel: false,
+events: ["weekend"]});
+console.log(string);
+// → {"squirrel":false,"events":["weekend"]}
+console.log(JSON.parse(string).events);
+// → ["weekend"]
+75
+

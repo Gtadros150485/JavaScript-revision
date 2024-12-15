@@ -1,0 +1,46 @@
+To prepare for the role described, here’s a concise and balanced list of books that cover essential knowledge:
+
+### **Frontend (React.js, TypeScript, JavaScript):**
+1. **_Eloquent JavaScript_ by Marijn Haverbeke**  
+   - Covers JavaScript fundamentals and advanced concepts. Essential for a deep understanding of the language.
+
+2. **_React - Up & Running_ by Stoyan Stefanov**  
+   - A practical guide to mastering React.js for building modern front-end applications.
+
+3. **_Programming TypeScript_ by Boris Cherny**  
+   - Offers a solid introduction to TypeScript, including advanced types and best practices.
+
+---
+
+### **Backend (Node.js, SQL, Scalable Systems):**
+4. **_Node.js Design Patterns_ by Mario Casciaro and Luciano Mammino**  
+   - Explains advanced patterns and techniques for building maintainable and scalable Node.js applications.
+
+5. **_SQL Performance Explained_ by Markus Winand**  
+   - A concise guide to writing high-performance SQL queries.
+
+---
+
+### **System Design and Scalability:**
+6. **_Designing Data-Intensive Applications_ by Martin Kleppmann**  
+   - Covers data storage systems, scalability, and distributed systems, crucial for backend scalability.
+
+---
+
+### **DevOps and Cloud (CI/CD, Docker, AWS):**
+7. **_The Docker Book_ by James Turnbull**  
+   - Provides a beginner-to-advanced level understanding of Docker, a must for CI/CD.
+
+8. **_AWS Certified Solutions Architect Official Study Guide_**  
+   - Focus on sections relevant to the company’s tech stack, such as serverless architecture and storage solutions.
+
+---
+
+### **Additional (Soft Skills & Team Collaboration):**
+9. **_The Pragmatic Programmer_ by Andrew Hunt and David Thomas**  
+   - Great for improving problem-solving, writing maintainable code, and team collaboration.
+
+
+10. Algorithms and Data structure:
+ 
+These books collectively provide the technical depth required while balancing frontend, backend, and system design knowledge.
